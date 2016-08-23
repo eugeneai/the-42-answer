@@ -1,0 +1,1 @@
+../subook/pics.mk
