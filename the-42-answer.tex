@@ -1,5 +1,5 @@
-
-\documentclass[12pt,a4paper]{extarticle}
+%\documentclass[12pt,a4paper]{memoir}
+\documentclass[12pt,a4paper]{ltxdoc}
 \usepackage{unicode-math}
 \usepackage{luatextra}
 \defaultfontfeatures{Renderer=Basic, Ligatures=TeX}
@@ -9,6 +9,7 @@
 %\usepackage[english,russian]{babel}
 \usepackage{polyglossia}
 \usepackage{hyperref}
+%\usepackage{memhfixc}
 \usepackage{tikz}
 \usepackage{microtype}
 \tikzset{node distance=4em, auto}
@@ -185,7 +186,7 @@ $f_{meta}: M(A) \to M(B)$ такие, что $f_{data};t_B = t_A; f_{meta}$, т.
   \centering
   \includegraphics[width=0.5\linewidth]{amalgama}
   \caption{Построение амальгамы в процессе объединения моделей\\[0.3em]
-    \footnotesize{$M$--требуемая объединенная модель, $A,B,C\ldots$ -- исходные модели.}}
+    \protect\footnotesize{$M$--требуемая объединенная модель, $A,B,C\ldots$ -- исходные модели.}}
   \label{fig:amalgama}
 \end{figure}
 
